@@ -18,8 +18,8 @@ android {
         applicationId = "com.cardit.car"
         minSdk = 28 // Pleos Connect 요구사항: API 28 이상 (서명 키 로테이션)
         targetSdk = 34 // Pleos Connect Emulator v2.1.0 = API 34
-        versionCode = 1
-        versionName = "0.1.0"
+        versionCode = 2
+        versionName = "1.0.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
     }
@@ -33,6 +33,10 @@ android {
             storePassword = props.getProperty("storePassword")
             keyAlias = props.getProperty("keyAlias")
             keyPassword = props.getProperty("keyPassword")
+            // Pleos Connect: 서명 키 로테이션 지원(APK Signature Scheme v3) — minSdk 28 요구 사유
+            enableV1Signing = true
+            enableV2Signing = true
+            enableV3Signing = true
         }
     } else null
 
