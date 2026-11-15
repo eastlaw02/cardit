@@ -1,5 +1,7 @@
 # Cardit (카딧)
 
+> 팀 **To Be Continue** · 차량용 앱 개발 공모전 (Pleos Connect) 출품작
+
 **함께 달린 여행을 차 안에서 한 편의 영화로 — 여행이 끝나면 동승자 모두가 주연인 엔딩 크레딧을 차량 디스플레이로 상영하는 Pleos Connect 차량 앱**
 
 <p align="center"><img src="design/app_icon_1024.png" width="160" alt="Cardit 앱 아이콘"></p>
@@ -15,18 +17,18 @@
 
 | 항목 | 위치 |
 |---|---|
-| 릴리스 APK (서명됨) | [`release/cardit-v1.0.0.apk`](release/cardit-v1.0.0.apk) |
+| 제출 APK (release, 서명됨) | [`apk/ToBeContinue_Cardit_release.apk`](apk/ToBeContinue_Cardit_release.apk) |
 | GitHub Release | [Releases › 최신 버전](../../releases/latest) |
 
 - 패키지: `com.cardit.car` · versionName `1.0.0` (versionCode 2)
-- 설치: `adb install release/cardit-v1.0.0.apk`
+- 설치: `adb install apk/ToBeContinue_Cardit_release.apk`
 
 ## 실행 방법
 
 ### APK로 바로 실행
 
 1. 에뮬레이터(아래 [테스트 환경](#테스트-환경-및-필요한-설정) 참고)를 실행합니다.
-2. `adb install release/cardit-v1.0.0.apk`
+2. `adb install apk/ToBeContinue_Cardit_release.apk`
 3. 앱 목록에서 **Cardit** 아이콘을 눌러 실행합니다.
 
 ### 소스에서 빌드
